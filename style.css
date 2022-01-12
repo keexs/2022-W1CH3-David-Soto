@@ -1,0 +1,27 @@
+header {
+  box-shadow: inset 5em black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.menu {
+  display: flex;
+  justify-content: end;
+}
+
+.menu li {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  width: 100px;
+}
+
+.rightmenu {
+  display: flex;
+  justify-content: end;
+}
