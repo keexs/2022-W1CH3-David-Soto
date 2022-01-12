@@ -25,3 +25,31 @@ header {
   display: flex;
   justify-content: end;
 }
+
+.petPhotos {
+  display: flex;
+  justify-content: center;
+}
+
+.petphotos > img {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.lookText {
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-start;
+  align-content: flex-start;
+}
+
+.lookBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1,
+h2 {
+  display: flex;
+  align-content: flex-start;
+}
