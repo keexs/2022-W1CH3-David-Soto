@@ -1,7 +1,12 @@
 header {
-  box-shadow: inset 5em black;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 8px rgb(138, 138, 138);
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .logo {
@@ -12,30 +17,45 @@ header {
 .menu {
   display: flex;
   justify-content: end;
+  align-items: center;
+}
+
+.buyNow {
+  width: 100px;
+  height: 50px;
+  border: 3px 3px orange;
+  border-color: orange;
+  background-color: white;
+  border-radius: 0% 30px 30px 30px;
+}
+
+.buyNow:hover {
+  background-color: orange;
+  background-size: 10px;
 }
 
 .menu li {
   display: flex;
   justify-content: space-around;
   height: 50px;
-  width: 100px;
+  width: 160px;
+  align-items: center;
 }
 
 .rightmenu {
   display: flex;
   justify-content: end;
+  align-items: center;
 }
 
 .petPhotos {
   display: flex;
   justify-content: center;
 }
-
-.petphotos > img {
-  display: flex;
-  justify-content: space-evenly;
+.petPhotos img {
+  margin: 20px;
+  border-radius: 30px;
 }
-
 .lookText {
   display: flex;
   flex-direction: column;
@@ -46,6 +66,7 @@ header {
 .lookBar {
   display: flex;
   justify-content: space-between;
+  margin-top: 100px;
 }
 
 h1,
