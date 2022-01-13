@@ -10,11 +10,13 @@ header {
 }
 
 .logo {
+  margin-left: 50px;
   display: flex;
   justify-content: flex-start;
 }
 
 .menu {
+  margin-right: 50px;
   display: flex;
   justify-content: end;
   align-items: center;
@@ -50,10 +52,12 @@ header {
 
 .petPhotos {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .petPhotos img {
-  margin: 20px;
+  margin-top: 20px;
+  margin-left: 50;
+  margin-right: 50;
   border-radius: 30px;
 }
 .lookText {
@@ -65,6 +69,10 @@ header {
 
 .lookBar {
   display: flex;
+  align-items: flex-end;
+  margin-left: 50px;
+  margin-right: 80px;
+  display: flex;
   justify-content: space-between;
   margin-top: 100px;
 }
@@ -73,4 +81,18 @@ h1,
 h2 {
   display: flex;
   align-content: flex-start;
+}
+
+.viewAll {
+  width: 100px;
+  height: 50px;
+  border: 3px 3px white;
+  border-color: orange;
+  background-color: orange;
+  border-radius: 0% 30px 30px 30px;
+}
+
+.viewAll:hover {
+  background-color: white;
+  background-size: 10px;
 }
